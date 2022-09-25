@@ -1,7 +1,5 @@
 # serverless-fastapi
-simple Serverless FastAPI for AWS Lambda
-
-<br/><br/>
+Simple Serverless FastAPI for AWS Lambda
 
 ## Run FastAPI
 ```
