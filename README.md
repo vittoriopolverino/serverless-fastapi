@@ -1,4 +1,7 @@
-# Run FastAPI
+# serverless-fastapi
+simple Serverless FastAPI for AWS Lambda
+
+## Run FastAPI
 ```
 pipenv run uvicorn app.main:app --reload
 ```
