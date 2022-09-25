@@ -18,6 +18,6 @@ async def get_users():
     return {"message": "Users!"}
 
 
-@router.put("/user/{user_id}")
+@router.put("/{user_id}")
 def update_user(user_id: int, user: User):
     return {"user_firstname": user.first_name, "user_id": user_id}
