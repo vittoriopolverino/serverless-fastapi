@@ -1,6 +1,11 @@
 # serverless-fastapi
 Simple Serverless FastAPI for AWS Lambda
 
+## Install dependencies in the virtual env
+```
+pipenv install
+```
+
 ## Run FastAPI
 ```
 pipenv run uvicorn app.main:app --reload
