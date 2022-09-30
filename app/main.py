@@ -11,4 +11,6 @@ async def root():
 
 
 app.include_router(api_router, prefix="/api/v1")
+# Mangum is an adapter for running ASGI applications in AWS Lambda to handle
+# Function URL, API Gateway, ALB and Lambda@Edge events.
 handler = Mangum(app)
