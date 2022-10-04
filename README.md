@@ -1,7 +1,7 @@
 # serverless-fastapi
 Simple Serverless FastAPI for AWS Lambda
 
-## Install dependencies in the virtual env
+## Install Dependencies
 ```
 pipenv install
 ```
